@@ -62,8 +62,6 @@ class CreateTransactionService {
       category,
     };
 
-    delete transactionReturn.category_id;
-
     return transactionReturn;
   }
 }
